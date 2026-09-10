@@ -1,13 +1,13 @@
 cask "mdvu" do
-  version "0.2.0"
-  sha256 "f3b9423286560aab33af697c8bf05c3c327dde0077bd33302e1852e0f4fa28dd"
+  version "0.3.0"
+  sha256 "f963a21957d9738f097a8029ca52395285c47e65e83a75bd784ccb6c787d0253"
 
   url "https://github.com/stpork/mdvu/releases/download/v#{version}/mdvu-#{version}-macos-universal.zip"
   name "mdvu"
   desc "Ultra-fast, lightweight native macOS Markdown viewer"
   homepage "https://github.com/stpork/mdvu"
 
-  depends_on macos: :ventura
+  depends_on macos: ">= :ventura"
 
   app "mdvu.app"
   binary "#{appdir}/mdvu.app/Contents/MacOS/mdvu", target: "mdvu"
