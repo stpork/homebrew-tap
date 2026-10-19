@@ -1,6 +1,6 @@
 cask "mdvu" do
-  version "0.5.0"
-  sha256 "39b91497d682b65dffcfc393cbed9802ebc27196b4f5087c9314f735fa616f9c"
+  version "0.5.1"
+  sha256 "416cd28af8903fff150a9785127401b3e25c240a4c8a88c87c7d26f98c02e151"
 
   url "https://github.com/stpork/mdvu/releases/download/v#{version}/mdvu-#{version}-macos-universal.zip"
   name "mdvu"
